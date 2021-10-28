@@ -25,8 +25,8 @@ fun main() {
     val hargaBarangSetelahDiskon= hargaBarang * (1 - diskon)
 
     println("""
-        Jenis barang $jenisBarang mendapat diskon = ${(diskon * 100).toInt()}%.
-        Harga setelah diskon didiskon = ${hargaBarangSetelahDiskon.toInt()}
+        Jenis barang $jenisBarang mendapat diskon = ${(diskon * 100).toInt()}%
+        Harga setelah didiskon = ${hargaBarangSetelahDiskon.toInt()}
     """.trimIndent())
 
 }
